@@ -81,7 +81,7 @@ workflows: #defines how each job would run and relate to each other and
       # - deploy:
       #     requires:
       #       - build-and-push
-      - scan:
-          requires:
-            - build
+      # - scan:
+      #     requires:
+      #       - build
 #mini-exercise - add the scan job so that it depends on build job
